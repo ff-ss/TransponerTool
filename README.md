@@ -1,5 +1,4 @@
-# ![alt text](https://github.com/ff-ss/TrasponerTool/blob/master/static/Webp.net-resizeimage.png "Logotype")  
-# TransponerTool
+# ![alt text](https://github.com/ff-ss/TrasponerTool/blob/master/static/Webp.net-resizeimage.png "Logotype").TransponerTool
 
 
 This CLI tool helps reduce manual labor input by automating the task of turning a single-key multiple-column layout, to a simple single-key two-column layout. It allows multiple extractions from different sheets of the same file. It also helps identify the extraction by adding a custom tag column that can easily be removed.
