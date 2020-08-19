@@ -1,4 +1,4 @@
-# ![alt text](https://github.com/ff-ss/TrasponerTool/blob/master/static/logo.png "Logotype")  
+# ![alt text](https://github.com/ff-ss/TrasponerTool/blob/master/static/Webp.net-resizeimage.png "Logotype")  
 # TransponerTool
 
 
