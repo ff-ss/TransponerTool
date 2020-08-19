@@ -91,7 +91,7 @@ def mainMenu():
     menu = consolemenu.SelectionMenu(["INICIAR"],title="TRASPONER v.2", subtitle="UTILIZE ESTA HERRAMIENTA PARA FÁCILMENTE TRASPONER CELDAS.",prologue_text="ESTE PROGRAMA USA LOS MÓDULOS OPENPYXL, COLORAMA, OS, TIME, Y CONSOLEMENU", epilogue_text="HECHO POR: FRANCISCO SALCEDO 2020 ", exit_option_text="SALIR")
     menu.show()
     menu.join()
-    
+
 def columnWarning():
     print("______________________________________________________________________________")
     print("|         A CONTINUACIÓN, INGRESARÁ LA LETRA DE LA COLUMNA A INDICAR.         |")
@@ -174,7 +174,8 @@ def assignColumns():
     print("___________________________________________________________")
     print("|                                                         |")
     print("|         INGRESE LA COLUMNA DONDE SE ENCUENTRAN:         |")
-    print("|                        SHOP ID                          |")
+    print("|                        SU KEY                           |")
+    print("|                   EJ. SHOP ID, X...                     |")
     print("|_________________________________________________________|")
     scolumnname = input("\n>> ").capitalize()
     while not trycolumn():
@@ -186,8 +187,8 @@ def assignColumns():
 
     print("___________________________________________________________")
     print("|                                                         |")
-    print("|           INGRESE LA COLUMNA DONDE EMPIEZAN:            |")
-    print("|                        ITEM ID                          |")
+    print("|      INGRESE LA COLUMNA DONDE EMPIEZA SU RANGO          |")
+    print("|                   EJ. ITEM, DATA...                     |")
     print("|_________________________________________________________|")
     scolumnname = input("\n>> ").capitalize()
     while not trycolumn():
@@ -198,8 +199,8 @@ def assignColumns():
 
     print("___________________________________________________________")
     print("|                                                         |")
-    print("|           INGRESE LA COLUMNA DONDE TERMINAN:            |")
-    print("|                        ITEM ID                          |")
+    print("|      INGRESE LA COLUMNA DONDE TERMINA SU RANGO          |")
+    print("|                   EJ. ITEM, DATA...                     |")
     print("|_________________________________________________________|")
     scolumnname = input("\n>> ").capitalize()
     while not trycolumn():
@@ -271,7 +272,7 @@ def endProgram():
         print("|                                                              |")
         print("|                     EXPORTACIÓN EXITOSA                      | ")
         print(f"|                  ARCHIVO {output} CREADO                     |")
-        print("|    RECUERDE GUARDAR EL ARCHIVO EN FORMATO 97-2003            |")
+        print("|    RECUERDE GUARDAR EL ARCHIVO EN EL FORMATO CORRECTO        |")
         print(f"|                  {cells} CELDAS AÑADIDAS                     |")
         print("|                                                              |")
         print("|             PRESIONE LA TECLA ENTER PARA SALIR               |")
