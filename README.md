@@ -10,7 +10,7 @@ It is currently *only* available in **Spanish**.
 The tool uses the following modules: openpyxl, colorama and console menu; as well as other standard libraries.
 
 ## Releases:
-You can download the executable standalone file [here](https://github.com/ff-ss/TransponerTool/raw/master/TransponerTool-2.1.2.exe), **or** you can choose to build the exe yourself (you will need the required modules).
+You can download the executable standalone file [here](https://github.com/ff-ss/TransponerTool/raw/master/TransponerTool-2.1.4.exe), **or** you can choose to build the exe yourself (you will need the required modules).
 
 The basic functionality is illustrated here:
 
