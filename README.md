@@ -14,6 +14,8 @@ You can download the executable standalone file **[here](https://github.com/ff-s
 The basic functionality is illustrated here:
 > In a key-multiple value table; TT will record each key with each of its values in individual rows. TT does not check for validity of data: so make sure that your data is clean before transposing.
 
+**Remember that the program will stop collecting data when a fully empty row is met.**
+
 ![alt text](https://github.com/ff-ss/TrasponerTool/blob/master/static/func.png "Multi-column to Two-column")
 
 
