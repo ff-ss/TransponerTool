@@ -263,9 +263,18 @@ def compute():
         for column in range(startcolumn,endcolumn+1):
             if sheet_old.cell(idrow_old, column).value is not None:
                 sheet_new.cell(idrow_new, idcolumn_new).value = sheet_old.cell(idrow_old, idcolumn_old).value
-                sheet_new.cell(idrow_new,2).value = sheet_old.cell(idrow_old, column).value
+
+                if sheet_old.cell(idrow_old, column).value is not None:
+                    sheet_new.cell(idrow_new,2).value = sheet_old.cell(idrow_old, column).value
+                else:
+                    sheet_new.cell(idrow_new,2).value = "N/A"
+
                 sheet_new.cell(idrow_new,3).value = TAG
-                sheet_new.cell(idrow_new,4).value = sheet_old.cell(idrow_old, filter).value
+
+                if sheet_old.cell(idrow_old, filter).value is not None:
+                    sheet_new.cell(idrow_new,4).value = sheet_old.cell(idrow_old, filter).value
+                else:
+                    sheet_new.cell(idrow_new,4).value = "N/A"
                 idrow_new += 1
                 exitcode = 1
                 cells +=1
