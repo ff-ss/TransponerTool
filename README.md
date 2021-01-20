@@ -9,7 +9,7 @@ It is currently *only* available in **English**.
 The tool uses the following modules: openpyxl, colorama and console menu; as well as other standard libraries.
 
 ## Releases:
-You can download the Windows executable standalone file **[here](https://github.com/ff-ss/TrasponerTool/raw/master/source/windows/TrasponerToolv3.2.exe)**, the macOS/Linux file **[here](https://github.com/ff-ss/TrasponerTool/raw/master/source/mac-unix/TrasponerTool3.2%20)** *or* you can choose to build it yourself (you will need the required modules).
+You can download the Windows executable standalone file **[here](https://github.com/ff-ss/TrasponerTool/raw/master/source/windows/TrasponerToolv3.2.exe)**, the macOS/Linux file **[here](https://github.com/ff-ss/TrasponerTool/raw/master/source/mac-unix/TrasponerToolv3.2.dmg)** *or* you can choose to build it yourself (you will need the required modules).
 
 The basic functionality is illustrated here:
 > In a key-multiple value table; TT will record each key with each of its values in individual rows. TT does not check for validity of data: so make sure that your data is clean before transposing.
